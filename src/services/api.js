@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 // API Base URL - Production ve Development için otomatik seçim
-const API_URL = process.env.VUE_APP_API_URL || 'https://umut-backend.onrender.com/api'
+const API_URL = process.env.VUE_APP_API_URL || 'https://umutuygulama.onrender.com/api'
 
 // Axios instance
 const api = axios.create({
